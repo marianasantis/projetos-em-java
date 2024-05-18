@@ -7,9 +7,7 @@ public class ContaPoupanca extends ContaHera
    
    public ContaPoupanca()
    {
-      setNumero(0);
-      setTitular("");
-      setSaldo(0);
+      super();
    }
    
    public ContaPoupanca(int numero, String titular, 
@@ -38,6 +36,7 @@ public class ContaPoupanca extends ContaHera
    public void imprime()
    {
       super.imprime();
-      System.out.printf("Saldo atualizado: %.2f", atualizaSaldo());                  
+      System.out.printf("\nRendeu %.2f%%", getTaxaJuros());
+      System.out.printf("\nSaldo Atual: %.2f\n", atualizaSaldo());                  
    }
 }

@@ -1,6 +1,3 @@
-/* Elabore as classes ContaHera, ContaPoupanca e ContaEmpresa e classe teste 
-para o diagrama de classes da imagem diagramaDeClasses.jpg */
-
 public class ContaEmpresa extends ContaHera
 {
    private double limiteEmprestimo;

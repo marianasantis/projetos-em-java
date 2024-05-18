@@ -1,5 +1,5 @@
 /* Elabore as classes ContaHera, ContaPoupanca e ContaEmpresa e classe teste 
-para o diagrama de classes da imagem diagramaDeClasses.jpg */
+para a UML da imagem ContaHera.jpeg */
 
 public class ContaHera
 {
@@ -10,7 +10,7 @@ public class ContaHera
    public ContaHera()
    {
       setNumero(0);
-      setTitular("");
+      setTitular("NÃO IDENTIFICADO");
       setSaldo(0);
    }
    
@@ -69,7 +69,7 @@ public class ContaHera
    
    public void imprime()
    {
-      System.out.printf("Conta: %d\nTitular: %s\nSaldo: %.2f\n",
+      System.out.printf("\nConta: %d\nTitular: %s\nSaldo: %.2f",
                                         numero, titular, saldo); 
    } 
 }
