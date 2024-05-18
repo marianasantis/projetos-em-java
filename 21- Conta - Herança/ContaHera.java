@@ -1,5 +1,5 @@
 /* Elabore as classes ContaHera, ContaPoupanca e ContaEmpresa e classe teste 
-para a UML da imagem ContaHera.jpeg */
+para o diagrama de classes da imagem diagramaDeClasses.jpg */
 
 public class ContaHera
 {
