@@ -2,10 +2,10 @@ public class TesteContaHera
 {
    public static void main(String args[])
    {
-      ContaHera cp = new ContaPoupanca(12345, "Mariana de Santis", 250, 10);
-      ContaHera cp2 = new ContaPoupanca();
+      ContaHera poupanca = new ContaPoupanca(12345, "Mariana de Santis", 250, 10);
+      ContaHera empresa = new ContaEmpresa(12345, "Mariana de Santis", 250, 400);
       
-      cp.imprime();
+      poupanca.imprime();
+      empresa.imprime();
    }
 }
-      
